@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-02T16:01:57 IST" name="Default suite" finished-at="2026-04-02T16:02:29 IST" duration-ms="32159">
+  <suite started-at="2026-04-02T16:15:47 IST" name="Default suite" finished-at="2026-04-02T16:16:19 IST" duration-ms="32103">
     <groups>
     </groups>
-    <test started-at="2026-04-02T16:01:57 IST" name="Default test" finished-at="2026-04-02T16:02:29 IST" duration-ms="32159">
+    <test started-at="2026-04-02T16:15:47 IST" name="Default test" finished-at="2026-04-02T16:16:19 IST" duration-ms="32103">
       <class name="swaglabs.tests.Logintest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:01:57 IST" name="setup" finished-at="2026-04-02T16:02:02 IST" duration-ms="4717" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:47 IST" name="setup" finished-at="2026-04-02T16:15:51 IST" duration-ms="4723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:03 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:02:03 IST" duration-ms="751" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:52 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:15:53 IST" duration-ms="948" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:03 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:02:04 IST" duration-ms="693" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:53 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:15:54 IST" duration-ms="800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:04 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:02:05 IST" duration-ms="844" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:54 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:15:55 IST" duration-ms="707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:05 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:02:05 IST" duration-ms="202" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:55 IST" name="login" data-provider="testcases" finished-at="2026-04-02T16:15:55 IST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:05 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="181" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:55 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:55 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="126" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="195" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:55 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:55 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="192" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:55 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:56 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="168" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:56 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:56 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="139" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="61" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:56 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:56 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -255,7 +255,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="42" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:56 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:56 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="49" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="90" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:56 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:56 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="99" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -327,7 +327,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:02:06 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="88" status="PASS">
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:56 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T16:15:56 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -363,43 +363,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeSteps -->
-        <test-method signature="orderconfirmation()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:06 IST" name="orderconfirmation" finished-at="2026-04-02T16:02:08 IST" depends-on-methods="swaglabs.tests.Logintest.executeSteps" duration-ms="2019" status="PASS">
+        <test-method signature="orderconfirmation()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:56 IST" name="orderconfirmation" finished-at="2026-04-02T16:15:58 IST" depends-on-methods="swaglabs.tests.Logintest.executeSteps" duration-ms="2068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderconfirmation -->
-        <test-method signature="backtohome()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:08 IST" name="backtohome" finished-at="2026-04-02T16:02:11 IST" depends-on-methods="swaglabs.tests.Logintest.orderconfirmation" duration-ms="2118" status="PASS">
+        <test-method signature="backtohome()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:15:58 IST" name="backtohome" finished-at="2026-04-02T16:16:00 IST" depends-on-methods="swaglabs.tests.Logintest.orderconfirmation" duration-ms="2102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backtohome -->
-        <test-method signature="addproducts()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:11 IST" name="addproducts" finished-at="2026-04-02T16:02:13 IST" depends-on-methods="swaglabs.tests.Logintest.backtohome" duration-ms="2283" status="PASS">
+        <test-method signature="addproducts()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:00 IST" name="addproducts" finished-at="2026-04-02T16:16:03 IST" depends-on-methods="swaglabs.tests.Logintest.backtohome" duration-ms="2228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addproducts -->
-        <test-method signature="addtocartbutton()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:13 IST" name="addtocartbutton" finished-at="2026-04-02T16:02:15 IST" depends-on-methods="swaglabs.tests.Logintest.addproducts" duration-ms="2120" status="PASS">
+        <test-method signature="addtocartbutton()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:03 IST" name="addtocartbutton" finished-at="2026-04-02T16:16:05 IST" depends-on-methods="swaglabs.tests.Logintest.addproducts" duration-ms="2127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtocartbutton -->
-        <test-method signature="removeproducts()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:15 IST" name="removeproducts" finished-at="2026-04-02T16:02:17 IST" depends-on-methods="swaglabs.tests.Logintest.addtocartbutton" duration-ms="2232" status="PASS">
+        <test-method signature="removeproducts()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:05 IST" name="removeproducts" finished-at="2026-04-02T16:16:07 IST" depends-on-methods="swaglabs.tests.Logintest.addtocartbutton" duration-ms="2241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeproducts -->
-        <test-method signature="hamburgermenu()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:17 IST" name="hamburgermenu" finished-at="2026-04-02T16:02:18 IST" depends-on-methods="swaglabs.tests.Logintest.removeproducts" duration-ms="1196" status="PASS">
+        <test-method signature="hamburgermenu()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:07 IST" name="hamburgermenu" finished-at="2026-04-02T16:16:08 IST" depends-on-methods="swaglabs.tests.Logintest.removeproducts" duration-ms="1162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hamburgermenu -->
-        <test-method signature="aboutpage()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:18 IST" name="aboutpage" finished-at="2026-04-02T16:02:22 IST" depends-on-methods="swaglabs.tests.Logintest.hamburgermenu" duration-ms="3512" status="PASS">
+        <test-method signature="aboutpage()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:08 IST" name="aboutpage" finished-at="2026-04-02T16:16:12 IST" depends-on-methods="swaglabs.tests.Logintest.hamburgermenu" duration-ms="3582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutpage -->
-        <test-method signature="prodsorting()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:22 IST" name="prodsorting" finished-at="2026-04-02T16:02:27 IST" depends-on-methods="swaglabs.tests.Logintest.aboutpage" duration-ms="4822" status="PASS">
+        <test-method signature="prodsorting()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:12 IST" name="prodsorting" finished-at="2026-04-02T16:16:16 IST" depends-on-methods="swaglabs.tests.Logintest.aboutpage" duration-ms="4716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prodsorting -->
-        <test-method signature="logoutthepage()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:27 IST" name="logoutthepage" finished-at="2026-04-02T16:02:28 IST" depends-on-methods="swaglabs.tests.Logintest.prodsorting" duration-ms="1135" status="PASS">
+        <test-method signature="logoutthepage()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:16 IST" name="logoutthepage" finished-at="2026-04-02T16:16:18 IST" depends-on-methods="swaglabs.tests.Logintest.prodsorting" duration-ms="1102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutthepage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T16:02:28 IST" name="tearDown" finished-at="2026-04-02T16:02:29 IST" duration-ms="1073" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabs.tests.Logintest@17f7cd29]" started-at="2026-04-02T16:16:18 IST" name="tearDown" finished-at="2026-04-02T16:16:19 IST" duration-ms="1076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

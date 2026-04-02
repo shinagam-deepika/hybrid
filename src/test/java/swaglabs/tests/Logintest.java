@@ -5,11 +5,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import deepika.swaglabs.Cartpage;
 import swaglabs.base.Base;
 import swaglabs.pages.Aboutpage;
 import swaglabs.pages.Additemspage;
 import swaglabs.pages.Backtohomepage;
+import swaglabs.pages.Cartpage;
 import swaglabs.pages.HamburgerMenuPage;
 import swaglabs.pages.Loginpage;
 import swaglabs.pages.Logoutpage;

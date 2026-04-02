@@ -76,41 +76,12 @@
             <version>5.1.2</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>deepika</groupId>
-            <artifactId>swaglabs</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>Datadriven</groupId>
-            <artifactId>Datadriven</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>practice</groupId>
-            <artifactId>TestNg</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
+      <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>5.8.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.selfhealing</groupId>
-            <artifactId>SauceDemoSelfHealing</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>RestAssureddemo</groupId>
-            <artifactId>RestAssured</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        
     </dependencies>
     <build>
         <pluginManagement>
