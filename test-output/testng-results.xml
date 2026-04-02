@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-02T11:47:08 IST" name="Default suite" finished-at="2026-04-02T11:47:45 IST" duration-ms="36405">
+    <groups>
+    </groups>
+    <test started-at="2026-04-02T11:47:08 IST" name="Default test" finished-at="2026-04-02T11:47:45 IST" duration-ms="36405">
+      <class name="swaglabs.tests.Logintest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:08 IST" name="setup" finished-at="2026-04-02T11:47:13 IST" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:14 IST" name="login" data-provider="testcases" finished-at="2026-04-02T11:47:15 IST" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:15 IST" name="login" data-provider="testcases" finished-at="2026-04-02T11:47:16 IST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User_name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:16 IST" name="login" data-provider="testcases" finished-at="2026-04-02T11:47:16 IST" duration-ms="658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:16 IST" name="login" data-provider="testcases" finished-at="2026-04-02T11:47:17 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:17 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:17 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addProduct]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[add-to-cart-sauce-labs-backpack]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:17 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:17 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[css]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[.shopping_cart_link]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:17 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:17 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[checkout]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:17 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:17 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[first-name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[deepika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:17 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:17 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[last-name]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shinagam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:18 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:18 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[postal-code]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[530002.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:18 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:18 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[continue]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="executeSteps(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:18 IST" name="executeSteps" data-provider="keyworddata" finished-at="2026-04-02T11:47:18 IST" depends-on-methods="swaglabs.tests.Logintest.login" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SwagTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[finish]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeSteps -->
+        <test-method signature="orderconfirmation()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:18 IST" name="orderconfirmation" finished-at="2026-04-02T11:47:20 IST" depends-on-methods="swaglabs.tests.Logintest.executeSteps" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderconfirmation -->
+        <test-method signature="backtohome()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:20 IST" name="backtohome" finished-at="2026-04-02T11:47:22 IST" depends-on-methods="swaglabs.tests.Logintest.orderconfirmation" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtohome -->
+        <test-method signature="addproducts()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:22 IST" name="addproducts" finished-at="2026-04-02T11:47:24 IST" depends-on-methods="swaglabs.tests.Logintest.backtohome" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproducts -->
+        <test-method signature="addtocartbutton()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:24 IST" name="addtocartbutton" finished-at="2026-04-02T11:47:26 IST" depends-on-methods="swaglabs.tests.Logintest.addproducts" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartbutton -->
+        <test-method signature="removeproducts()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:26 IST" name="removeproducts" finished-at="2026-04-02T11:47:28 IST" depends-on-methods="swaglabs.tests.Logintest.addtocartbutton" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeproducts -->
+        <test-method signature="hamburgermenu()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:28 IST" name="hamburgermenu" finished-at="2026-04-02T11:47:30 IST" depends-on-methods="swaglabs.tests.Logintest.removeproducts" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hamburgermenu -->
+        <test-method signature="aboutpage()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:30 IST" name="aboutpage" finished-at="2026-04-02T11:47:38 IST" depends-on-methods="swaglabs.tests.Logintest.hamburgermenu" duration-ms="8036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutpage -->
+        <test-method signature="prodsorting()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:38 IST" name="prodsorting" finished-at="2026-04-02T11:47:42 IST" depends-on-methods="swaglabs.tests.Logintest.aboutpage" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodsorting -->
+        <test-method signature="logoutthepage()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:42 IST" name="logoutthepage" finished-at="2026-04-02T11:47:44 IST" depends-on-methods="swaglabs.tests.Logintest.prodsorting" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutthepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabs.tests.Logintest@2e377400]" started-at="2026-04-02T11:47:44 IST" name="tearDown" finished-at="2026-04-02T11:47:45 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swaglabs.tests.Logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
