@@ -17,7 +17,6 @@ import swaglabs.pages.Orderconfirmationpage;
 import swaglabs.pages.Productsortpage;
 import swaglabs.pages.Removeitemspage;
 import swaglabs.utils.ExcelUtil;
-import swaglabs.utils.ExtentTestListener;
 import swaglabs.utils.KeywordEngine;
 
 @Listeners(ExtentTestListener.class)

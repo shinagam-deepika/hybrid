@@ -1,10 +1,12 @@
-package swaglabs.utils;
+package swaglabs.tests;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+
+import swaglabs.utils.ExtentManage;
 
 public class ExtentTestListener implements ITestListener {
 
